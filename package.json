@@ -5,6 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "node src/build.js",
+    "build-worker": "node src/build-worker.js",
+    "deploy": "npm run build && npm run build-worker && wrangler deploy",
+    "dev": "npm run build-worker && wrangler dev",
     "update": "node src/build.js && git add . && git commit -m 'Update status' && git push"
   },
   "dependencies": {
