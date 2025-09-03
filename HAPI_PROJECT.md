@@ -2,10 +2,11 @@
 *The Human API - Making Phill Clapham the World's First Queryable Human*
 *Last updated: 2025-09-03 11:58-04:00*
 
-## Current Status: LAUNCHED 🚀
+## Current Status: LAUNCHED BUT NEEDS ARCHITECTURE PIVOT 🔄
 - **Live URL:** https://hapi-phillipclapham.pclapham42.workers.dev
-- **Status:** Functional (static endpoints working, inbox needs KV setup)
-- **Phase:** Initial deployment complete, needs finishing touches
+- **Status:** Individual endpoints work, but gateway pattern FAILED
+- **Critical Issue:** AIs cannot navigate between URLs autonomously
+- **Phase:** Need to pivot to single-endpoint architecture
 
 ## Philosophy & Vision
 
@@ -171,10 +172,26 @@ HAPI (Human API) is a machine-readable interface for human coordination. It inve
 - Git-trackable changes
 
 ## Known Issues
+- **CRITICAL: Gateway pattern doesn't work** - AIs can't navigate between URLs
+- Architecture needs pivot to single endpoint
 - KV namespace not configured yet
 - Inbox POST works but doesn't persist
 - No rate limiting implemented
 - No custom domain yet
+
+## Testing Results (2025-09-03)
+
+### What We Learned
+1. Claude can fetch URLs provided by user but cannot navigate to other URLs found in responses
+2. The gateway/instruction pattern fails with most AIs
+3. Individual endpoints work perfectly when directly accessed
+4. Need to bundle all data in single response for maximum compatibility
+
+### Architectural Pivot Decision
+Moving from multiple endpoints to **single endpoint** that returns all data:
+- Simpler for humans (one URL to share)
+- Works with ALL AIs regardless of capabilities  
+- Better UX despite being less "RESTful"
 
 ## Blog Post Outline
 
