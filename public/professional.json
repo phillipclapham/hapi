@@ -1,0 +1,34 @@
+{
+  "name": "Phill Clapham",
+  "title": "Senior Solutions Architect",
+  "company": "Pressable",
+  "tagline": "Trickster wisdom for technical leadership",
+  "expertise": [
+    "WordPress enterprise scaling",
+    "WooCommerce performance optimization",
+    "Technical architecture reviews",
+    "Load testing & chaos engineering",
+    "Human-AI interface design"
+  ],
+  "contact": {
+    "work": "phillip.clapham@pressable.com",
+    "personal": "me@phillipclapham.com"
+  },
+  "profiles": {
+    "linkedin": "https://www.linkedin.com/in/phillipclapham/",
+    "github": "https://github.com/phillipclapham",
+    "gravatar": "https://gravatar.com/pclapham42",
+    "website": "https://phillipclapham.com"
+  },
+  "open_to": [
+    "Leadership positions",
+    "Technical challenges worth solving",
+    "Businesses needing nonlinear perspectives"
+  ],
+  "not_interested": [
+    "Junior development roles",
+    "Freelance WordPress builds",
+    "Positions without strategic impact"
+  ],
+  "updated": "2025-09-03T10:45:00-04:00"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "hapi-phillipclapham",
+  "version": "0.3.0",
+  "description": "Human API - Phill Clapham",
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.js",
+    "update": "node src/build.js && git add . && git commit -m 'Update status' && git push"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

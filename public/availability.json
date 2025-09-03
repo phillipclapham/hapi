@@ -1,0 +1,22 @@
+{
+  "timezone": "America/New_York",
+  "office_hours": {
+    "Monday-Friday": "09:00-21:00",
+    "Saturday-Sunday": "As needed"
+  },
+  "best_times": {
+    "meetings": ["10:00-12:00", "14:00-16:00"],
+    "deep_work": ["09:00-10:00", "16:00-21:00"],
+    "social": ["12:00-14:00"]
+  },
+  "response_times": {
+    "email": "Same day",
+    "slack": "Within 1 hour during office hours",
+    "hapi_inbox": "Next business day"
+  },
+  "booking": {
+    "calendar_link": "https://calendar.app.google/tBzWPRhJKWtuyPKN7",
+    "minimum_notice": "24 hours"
+  },
+  "updated": "2025-09-03T10:45:00-04:00"
+}

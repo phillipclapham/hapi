@@ -1,0 +1,10 @@
+name = "hapi-inbox"
+main = "workers/inbox.js"
+compatibility_date = "2024-01-01"
+
+[[kv_namespaces]]
+binding = "HAPI_KV"
+id = "YOUR_KV_NAMESPACE_ID"
+
+[vars]
+# INBOX_SECRET = "set-in-dashboard-not-here"

@@ -1,0 +1,30 @@
+{
+  "license": "Human Usage Only (HUO) v1.0",
+  "consent": "This data is published for human and AI coordination only",
+  "allowed_uses": [
+    "Checking availability before contact",
+    "Understanding communication preferences",
+    "Coordinating meetings efficiently",
+    "Sending async messages via inbox",
+    "AI summarization for human decision-making"
+  ],
+  "forbidden_uses": [
+    "Employment screening decisions",
+    "Insurance or credit assessments",
+    "Health or medical inferences",
+    "Training ML models without explicit consent",
+    "Pattern tracking or surveillance",
+    "Automated decision-making about me"
+  ],
+  "data_retention": {
+    "public_data": "Consider stale after 24 hours",
+    "inbox_messages": "Deleted after 30 days",
+    "no_logging": "Do not store my status patterns"
+  },
+  "boundaries": {
+    "respect": "not_open_to fields are absolute",
+    "energy": "Low energy means async only",
+    "inference": "Do not infer beyond what's explicitly stated"
+  },
+  "updated": "2025-09-03T10:45:00-04:00"
+}

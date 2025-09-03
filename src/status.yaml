@@ -1,0 +1,16 @@
+energy:
+  social: Medium
+  mental: High
+  physical: Medium
+mood: Curious
+focus:
+  - HAPI implementation
+  - Customer architecture reviews
+open_to:
+  - async messages
+  - quick technical questions
+  - HAPI feedback
+not_open_to:
+  - unscheduled calls
+  - lengthy meetings
+note: Building the future of human-AI coordination

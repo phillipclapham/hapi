@@ -1,0 +1,15 @@
+{
+  "hapi_version": "0.3",
+  "person": "Phill Clapham",
+  "tagline": "Trickster wisdom for technical leadership",
+  "endpoints": {
+    "gateway": "/",
+    "status": "/public/status.json",
+    "professional": "/public/professional.json",
+    "availability": "/public/availability.json",
+    "comms": "/public/comms.json",
+    "policy": "/public/policy.json",
+    "inbox": "/inbox"
+  },
+  "updated": "2025-09-03T10:45:00-04:00"
+}
